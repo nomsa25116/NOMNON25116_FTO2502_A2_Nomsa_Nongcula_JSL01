@@ -93,8 +93,10 @@ body {
     text-decoration-color: rgb(124, 124, 252);
 }
 @media (max-width: 375px) {
-    .main {
-        flex-direction: column;
+    .app {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
     }
     .sidebar {
         width: 150px;
